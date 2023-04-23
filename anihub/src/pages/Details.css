@@ -1,0 +1,125 @@
+.post {
+    margin-top: 30px;
+    backdrop-filter: blur(10px);
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+    margin-bottom: 25px;
+    width: 400px;
+    color: #388087;
+    text-align: left;
+}
+.post-time {
+    color: #388087;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    font-size: 0.9em;
+}
+.post-title {
+    margin-left: 20px;
+    color: #388087;
+    display: flex;
+    font-size: 1.17em;
+    font-weight: bold;
+}
+.post-content {
+    margin-left: 20px;
+    color: #388087;
+    display: flex;
+    font-size: 1.17em;
+}
+.post-image {
+    max-height: 200px;
+    max-width: 200px;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.functions-panel {
+    height: 35px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.post-like-container {
+    width: 130px;
+    height: 35px;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+.postLikeCount {
+    display: flex;
+    font-size: .8em;
+    align-items: right;
+    text-align: center;
+    width: 50px;
+    margin: 10px;
+    height: 30px;
+}
+.postLikeButton {
+    width: 16px;
+    height: 16px;
+    margin-right: 10px;
+    float:left;
+    border-width: 0px;
+}
+.editButton {
+    width: 16px;
+    float:right;
+    margin: 5px;
+}
+.editButton:hover {
+    cursor: pointer;
+}
+.deleteButton {
+    width: 14px;
+    float:right;
+    margin: 5px;
+}
+.deleteButton:hover {
+    cursor: pointer;
+}
+.comments-box {
+    margin-left: 20px;
+
+}
+form {
+    color: #388087;
+    font-weight: 400;
+    font-size: 26px;
+    align-items: center;
+    align-content: center;
+}
+input {
+    margin-left: 20px;
+    width: 350px;
+    height: 45px;
+    border: 1px solid #388087;
+    font-size: 20px;
+    padding-left: 10px;
+}
+label {
+    font-size: 18px;
+    margin-left: 20px;
+}
+input[type=submit] {
+    margin-left: 20px;
+    width: 365px;
+    height: 50px;
+    cursor: pointer;
+    font-size: 18px;
+    border-radius: 0px;
+    font-weight: 500;
+    font-family: inherit;
+    background-color: #388087;
+    color: #f6f6f2;
+    cursor: pointer;
+    transition: border-color 0.25s;
+    margin-top: 20px;
+}
+input[type=submit]:hover {
+    border-color: #388087;
+}

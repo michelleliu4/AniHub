@@ -1,0 +1,11 @@
+.ReadPosts {
+    display: flex;
+    margin-top: 20px;
+}
+
+.no-posts {
+    font-weight: 900;
+    font-size: 26px;
+    width: 200px;
+    color: #388087;
+}

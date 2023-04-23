@@ -1,0 +1,29 @@
+.Card {
+    backdrop-filter: blur(10px);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-right: 10px;
+    margin-bottom: 25px;
+    width: 500px;
+    color: #388087;
+    background-color: white;
+    text-align: left;
+}
+.card-details {
+    color: #388087;
+    background-color: white;
+    display: flex;
+    font-size: 1.17em;
+    font-weight: bold;
+}
+.card-details:hover {
+    border-color: white;
+}
+
+.card-dates {
+    color: #388087;
+    display: flex;
+    align-items: center;
+    margin-left: 20px;
+    font-size: 0.9em;
+}
