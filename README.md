@@ -1,0 +1,2 @@
+# AniHub
+ Anime discussion platform
