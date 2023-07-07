@@ -2,6 +2,8 @@
 
 Anime discussion platform integrated with Supabase, hosted on Netlify. It allows users to create posts with images and text content. Note that due to free tier limits, the Supabase integration may be paused.
 
+## Video Walkthrough
+
 <img src='https://i.imgur.com/6PUU2gf.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
